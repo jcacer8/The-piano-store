@@ -1,0 +1,101 @@
+.body{
+    background-color: #40697A;
+}
+
+.active{
+    background-color: black;
+}
+
+.piano-icon{
+    width: 30px;
+    margin-right: 2vw;
+}
+
+.background{
+    background-color: #40697A;
+}
+
+.fs-4{
+    font-family: 'Merriweather', serif;
+}
+.main-card{
+    background-color: #037BAD;
+}
+
+.main-link{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.nav-link{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+.piano-cards{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5vw;
+}
+
+.shop-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2titles{
+    font-family: 'Merriweather', serif;
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 300;
+}
+
+.h1titles{
+    font-family: 'Merriweather', serif;
+    font-size: 3.5rem;
+    color: white;
+}
+
+.white-text{
+    color: white;
+}
+
+table{
+    border-color: black;
+}
+
+.carousel-meta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7vh;
+}
+
+.carousel-container{
+    width: 40vw;
+}
+
+.carousel-item img{
+    border-radius: 15%;
+}
+
+@media (min-width: 319px) and (max-width: 530px) {
+    
+    .carousel-container{
+        width: 65vw;
+    }
+
+}
+
+@media (min-width: 531px) and (max-width: 900px) {
+    
+    .carousel-container{
+        width: 50vw;
+    }
+
+}
